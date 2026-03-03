@@ -1,5 +1,5 @@
 """
-Appendix A
+
 Python-Based LLM Assistant for MITRE-Aware KQL Generation
 
 This script implements a Python-based assistant that integrates structured
