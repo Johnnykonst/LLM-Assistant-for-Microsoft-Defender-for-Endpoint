@@ -1,8 +1,7 @@
 # LLM-Assisted MITRE-Aware KQL Generation for Microsoft Defender for Endpoint
 
-This repository accompanies a diploma thesis titled **“Development of an LLM Assistant for Microsoft Defender for Endpoint”** and contains a Python-based prototype that combines structured threat intelligence with a Large Language Model (LLM) to automatically generate **Kusto Query Language (KQL)** detection rules for **Microsoft Defender for Endpoint (MDE)**.
+This repository accompanies the manuscript titled “Evaluating LLMs for the Automated Generation of Operational Detection Rules in Enterprise EDR Environments” and contains a Python-based prototype that combines structured threat intelligence with a Large Language Model (LLM) to automatically generate Kusto Query Language (KQL) detection rules for Microsoft Defender for Endpoint (MDE). The proposed framework enriches LLM prompts with MITRE ATT&CK technique metadata retrieved from OpenCTI, post-processes generated queries to ensure schema correctness, and supports iterative human-in-the-loop refinement.
 
-The assistant enriches LLM prompts with **MITRE ATT&CK** technique metadata retrieved from **OpenCTI**, post-processes generated queries to ensure schema correctness, and supports iterative human-in-the-loop refinement.
 
 ---
 
@@ -105,10 +104,10 @@ The assistant will:
 
 ## 📄 Academic Context
 
-This implementation supports the diploma thesis:
-
-> **Development of an LLM Assistant for Microsoft Defender for Endpoint**
-> Exploring the use of LLMs as constrained assistants in security detection engineering through structured threat intelligence integration.
+This implementation supports the manuscript:
+“Evaluating LLMs for the Automated Generation of Operational Detection Rules in Enterprise EDR Environments”
+Exploring the use of LLMs as constrained assistants in security detection engineering through structured threat intelligence integration.
+The goal is not full automation, but the augmentation of expert-driven workflows.
 
 The goal is not full automation, but **augmentation of expert workflows**.
 
