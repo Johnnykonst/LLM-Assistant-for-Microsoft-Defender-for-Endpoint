@@ -107,7 +107,6 @@ The assistant will:
 This implementation supports the manuscript:
 “Evaluating LLMs for the Automated Generation of Operational Detection Rules in Enterprise EDR Environments”
 Exploring the use of LLMs as constrained assistants in security detection engineering through structured threat intelligence integration.
-The goal is not full automation, but the augmentation of expert-driven workflows.
 
 The goal is not full automation, but **augmentation of expert workflows**.
 
